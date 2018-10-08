@@ -1,0 +1,410 @@
+/*头部-top-left*/
+header div.header-top{
+    background: #F7F9F8;
+}
+header div.container div.fl>div{
+    float: left;
+    padding: 8px 0;
+    margin-right: 10px;
+}
+header div.container ul.fr li{
+    width: 90px;
+    position: relative;
+    float: right;
+    padding: 5px 0;
+    padding-left: 30px;
+    border: 1px solid transparent;
+}
+header div.container ul.fr:last-child li:last-child{
+    width: 135px;
+}
+header div.container ul.fr li.bgWhite{
+    background: #fff;
+    border-left: 1px solid #b4c1a3;
+    border-right: 1px solid #b4c1a3;
+    z-index: 50;
+}
+header div.container ul.fr.right li{
+    margin-left: 20px;
+    z-index: 8;
+}
+header div.container ul.fr.right li i{
+    position: absolute;
+    top: 5px;
+    right: 60px;
+    width: 25px;
+    height: 20px;
+    background: url("http://127.0.0.1:3000/img/cart/header-img.png")no-repeat -60px 0;
+}
+header div.container ul.fr.right li:nth-child(2) i{
+    background: url("http://127.0.0.1:3000/img/cart/header-img.png")no-repeat -38px 0;
+}
+header div.container ul.fr.right>li>div{
+    position: absolute;
+    top: 25px;
+    left: -1px;
+    background: #fff;
+    border: 1px solid #b4c1a3;
+    padding: 5px 12px;
+    text-align: left;
+    cursor: pointer;
+}
+header div.container ul.fr.right>li:nth-child(2)>div>a{
+    display: block;
+    width: 80px;
+    padding-left: 10px;
+    line-height: 25px;
+    color: #727272;
+}
+header div.container ul.fr.right>li:first-child>div img{
+    width: 120px;
+    height: 120px;
+}
+header div.container ul.fr.right>li:first-child>div span{
+    display: block;
+    padding-bottom: 5px;
+    text-align: center;
+}
+header div.logoRow{
+    width: 1920px;
+    height: 75px;
+    padding: 15px 0 5px 0;
+    background: #E0E0E0;
+}
+header div.logoRow div.container div.left-logo>a{
+    display: block;
+    width: 145px;
+    height: 50px;
+    background: url("http://127.0.0.1:3000/img/imgIndex/logo.png");
+}
+header div.logoRow div.container div.steps{
+    float: right;
+    padding-top: 20px;
+    margin-right: 40px;
+}
+header div.logoRow div.container div.steps ul li{
+    float: left;
+    position: relative;
+}
+header div.logoRow div.container div.steps ul li b{
+    background: url("http://127.0.0.1:3000/img/cart/order-step.png");
+    width: 36px;
+    height: 36px;
+    display: block;
+    float: left;
+}
+header div.logoRow div.container .steps li .b1 {
+    background-position: 0 0;
+}
+header div.logoRow div.container .steps li.on .b1 {
+    background-position: 0 -44px;
+}
+header div.logoRow div.container .steps li .b2 {
+    background-position: -42px 0;
+}
+header div.logoRow div.container .steps li .b3 {
+    background-position: -84px 0;
+}
+header div.logoRow div.container  .steps li i {
+    width: 165px;
+    height: 6px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    display: block;
+    float: left;
+    margin-top: 15px;
+    margin-right: 0;
+    overflow: hidden;
+}
+header div.logoRow div.container .steps li span {
+    position: absolute;
+    top: -20px;
+    display: inline-block;
+    width: 160px;
+    text-align: center;
+    right: -62px;
+    color: #333;
+}
+header div.logoRow div.container .steps .on span {
+    color: #008842;
+}
+/*购物车*/
+section{
+    margin-top: 20px;
+}
+section .cart h2 {
+    font-weight: normal;
+    height: 38px;
+    line-height: 38px;
+    background: #fff url("http://127.0.0.1:3000/img/cart/bg_cart.png") no-repeat  0 0;
+    border-bottom: 2px solid #05984d;
+    text-indent: -9999em;
+    position: relative;
+}
+section .cart .city {
+    position: absolute;
+    left: 230px;
+    top: 4px;
+    text-indent: 0;
+    font-size: 12px;
+}
+section .cart .city-sz {
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    margin: 7px 0;
+    cursor: pointer;
+}
+section .cart .city-tit{
+    float: left;
+    color: #444;
+}
+section .cart .city-tit .city-name {
+    z-index: 100;
+    position: relative;
+    display: block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+    padding: 0 5px 5px 5px;
+    cursor: pointer;
+    color: #444;
+}
+section .cart .on-shopping {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #008842;
+    text-indent: 0;
+    text-decoration: underline;
+    margin-right: 22px;
+    font-size: 12px;
+}
+section .cart .cart-content, .order-alert {
+    border: 1px solid #e3e6e0;
+    border-top: 0;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+section .cart table {
+    border-spacing: 0;
+}
+section .cart .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+    margin-bottom: 10px;
+}
+section .cart .cart-table th {
+    height: 40px;
+    width: 110px;
+    background-color: #f1f1f1;
+    font: 12px/40px Simsun;
+    color: #262626;
+    text-align: center;
+    padding: 0 10px;
+}
+section .cart .cart-table th.cart-t-check {
+    width: 120px;
+}
+input{
+    outline: none;
+}
+section .cart .cart-table th.cart-t-check input {
+    margin-right: 20px;
+    vertical-align: middle;
+}
+section .cart .cart-table th.cart-t-check, .cart-table td.cart-t-check {
+    text-align: left;
+    padding-left: 20px;
+}
+section .cart .cart-table th.cart-t-info{
+    width: 250px;
+}
+section .cart .cart-table th.cart-t-ub{
+    width: 75px;
+}
+section .cart .cart-table th.cart-t-price{
+    width: 100px;
+}
+/*cartList*/
+section .cart .cart-list .cart-table .cart-t-check{
+    width: 50px;
+}
+section .cart .cart-list .cart-table .cart-t-img {
+    width: 80px;
+    position: relative;
+}
+section .cart .cart-list a {
+    font-size: 14px;
+    color: #444;
+    cursor: pointer;
+}
+section .cart .cart-list .cart-table td img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ebebeb;
+    position: relative;
+}
+section .cart .cart-list .cart-table td{
+    padding: 10px;
+}
+section .cart .cart-table td.cart-t-info{
+    width: 280px;
+}
+section .cart .cart-table td.cart-t-ub{
+    width: 80px;
+}
+section .cart .cart-table td.cart-t-price{
+    width: 110px;
+    text-align: center;
+}
+section .cart .cart-list .cart-table .cart-t-num{
+    padding-left: 25px;
+    width: 140px;
+}
+section .cart .cart-list .cart-table .cart-t-num .quantity-form{
+    position: relative;
+    overflow: hidden;
+    width: 86px;
+    height: 30px;
+}
+section .cart .cart-list .cart-table .cart-t-num .quantity-form .decrement, .increment{
+    display: inline-block;
+    margin: 0;
+    width: 18px;
+    height: 24px;
+    background: url("http://127.0.0.1:3000/img/cart/bg_cart.png") no-repeat;
+}
+section .cart .cart-list .cart-table .cart-t-num .quantity-form  .increment{
+    float: left;
+    background-position: 0 -40px;
+}
+section .cart .cart-list .cart-table .cart-t-num .quantity-form  .decrement{
+    float: right;
+    background-position: -20px -40px;
+}
+section .cart .cart-list .cart-table .cart-t-num .quantity-form .pCount{
+    position: absolute;
+    left: 22px;
+    top: 0;
+    border: 1px solid #cacbcb;
+    width: 42px;
+    height: 24px;
+    line-height: 20px;
+    text-align: center;
+    padding: 4px;
+    margin: 0;
+    font-size: 12px;
+    color: #333;
+    -webkit-appearance: none;
+}
+section .cart .cart-list .cart-table .cart-t-total{
+    text-align: center;
+    width: 120px;
+    color: #e93005;
+    font-size: 14px;
+    line-height: 1em;
+}
+section .cart .cart-list .cart-table .cart-t-spec{
+    width: 120px;
+    color: #262626;
+    font: 12px/1em Simsun;
+    text-align: center;
+}
+section .cart .cart-list .cart-table .cart-t-opera{
+    width: 120px;
+    color: #262626;
+    font: 12px/2em Simsun;
+}
+section .cart .cart-list .cart-table .cart-t-opera a{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #444;
+    cursor: pointer;
+}
+
+section .cart .cart-footer{
+    background-color: #f7f7f7;
+    height: 60px;
+    font-size: 12px;
+    line-height: 1em;
+    color: #666;
+    margin-top: 20px;
+    padding: 10px;
+}
+section .cart .cart-footer>div{
+    width: 100%;
+}
+section .cart .cart-footer div div.left{
+    padding-top: 13px;
+}
+section .cart .cart-footer label {
+    margin-left: 20px;
+    vertical-align: middle;
+}
+section .cart .cart-footer input {
+    margin-right: 5px;
+}
+section .cart .cart-footer a {
+    font: 12px Simsun;
+    margin-left: 20px;
+}
+.cart-footer span {
+    margin-right: 20px;
+}
+section .cart .cart-footer .ub i{
+    font-variant: normal;
+    color: #249c61;
+    font: bold 14px/1em Simsun;
+}
+.total-price {
+    font-size: 14px;
+}
+section .cart .cart-footer div.right .total-price i{
+    display: inline-block;
+    width: 110px;
+    height: 16px;
+    text-align: center;
+    color: #ff5317;
+    font-weight: bold;
+    margin: 0 5px;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1em;
+}
+section .cart .cart-footer .btn {
+    font: bold 18px/1em "微软雅黑";
+    background-color: #ff5317;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-left: 0;
+}
+/*空空如也*/
+section .cart.cart-empty .cart-none a {
+    color: #008842;
+}
+section .cart.cart-empty{
+    border: 1px solid #e3e6e0;
+    background: #fff;
+    line-height: 30px;
+    padding: 70px 0;
+}
+section .cart.cart-empty .cart-none p{
+    height: 280px;
+    font-size: 14px;
+    text-align: center;
+    background: url("http://127.0.0.1:3000/img/cart/none-bg.jpg") no-repeat center bottom;
+}
+section .cart.cart-empty  .cart-none p b {
+    font-size: 14px;
+    font-weight: normal;
+}
+section .cart.cart-empty  .cart-none p b a {
+    margin-left: 15px;
+}
+

@@ -1,0 +1,13 @@
+.not-found .error {
+    height: 450px;
+    padding: 75px 0 0 600px;
+    color: #777;
+    background: url("http://127.0.0.1:3000/img/404/404.png") no-repeat top left;
+}
+.not-found .error h2 {
+    font: bold 30px "Microsoft YaHei";
+}
+.not-found .error p {
+    margin-top: 10px;
+    font: normal 16px "Microsoft YaHei";
+}

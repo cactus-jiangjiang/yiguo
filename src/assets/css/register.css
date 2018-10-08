@@ -1,0 +1,147 @@
+.register header,.register section{
+    width: 1920px;
+    background: #e0e0e0;
+}
+.register header .wrap{
+    width: 1200px;
+    margin:0  auto;
+    position: relative;
+}
+.register header .wrap>div{
+    float: left;
+    margin: 15px 0 5px 0;
+}
+.register header .wrap .left-logo>a{
+    display: block;
+    width: 145px;
+    height: 50px;
+    background: url("http://127.0.0.1:3000/img/imgIndex/logo.png");
+}
+.register header .wrap .login{
+    height: 50px;
+    line-height: 50px;
+    color: #008842;
+    font-size: 28px;
+    position: absolute;
+    left: 250px;
+}
+
+/*section*/
+.register section{
+    background: #f8f8f8;
+}
+.register .content{
+    width: 1200px;
+    margin:0 auto;
+}
+.register section .to-signin{
+    padding: 30px 30px 10px 0;
+    font: 14px/1 "Microsoft YaHei";
+}
+.register section .to-signin>a{
+    color: #ef760a;
+}
+.register section div.main{
+    width: 1200px;
+    height: 580px;
+    border: 1px solid #c4dfb1;
+    padding: 40px 0 50px;
+    background: #fff;
+}
+.register .content .main>div{
+    float: left;
+    font: 14px Arial,"Microsoft YaHei";
+}
+/*左侧表单*/
+.register .content .main .left-side{
+    width: 480px;
+    margin:0 111px;
+}
+.register .content .main .right-side{
+    width: 400px;
+}
+.register .content .main .left-side p{
+    margin-bottom: 30px;
+    font: 14px Arial, "Microsoft YaHei";
+}
+.register .content .main .left-side p:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.register .content .main .left-side p .tiName{
+    float: left;
+    display: inline-block;
+    width: 100px;
+    height: 38px;
+    line-height: 38px;
+    text-align: right;
+    margin-right: 15px;
+}
+.register .content .main .left-side p .isCorrect{
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    width: 18px;
+    height: 18px;
+    /*border: 1px solid red;*/
+}
+.register .content .main .left-side p input.test{
+    float: left;
+    width: 165px;
+    height: 40px;
+    padding-left: 15px;
+    margin-right: 15px;
+    border: 1px solid #c1c1c1;
+}
+.register .content .main .left-side p input.test+img{
+    float: left;
+    vertical-align: bottom;
+}
+.register .content .main .left-side p input.test~a{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    color: #666666;
+}
+.register .content .main .left-side p:nth-child(2) input.test{
+    width: 304px;
+}
+.register .content .main .left-side p:nth-child(3) a{
+    display: inline-block;
+    width: 121px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    background-color: #f7f7f7;
+    border: 1px solid #c1c1c1;
+    margin-right: 60px;
+}
+.register .content .main .left-side p:nth-child(4) input.test, .content .main .left-side p:nth-child(5) input.test, .content .main .left-side p:nth-child(6) input.test{
+    width: 304px;
+}
+.register .content .main .left-side p:nth-child(6), .content .main .left-side p:nth-child(7) span.tiName{
+    height: 20px;
+}
+.register .content .main .left-side p:nth-child(6) span.msg{
+    color: red;
+    margin-left: 10px;
+}
+.register .content .main .left-side p a.registerNow{
+    display: inline-block;
+    width: 306px;
+    height: 50px;
+    text-align: center;
+    background: #008842;
+    color: #fff;
+    font: 18px/50px "Microsoft YaHei";
+}
+
+.register .content .main .right-side .right-img{
+    position: relative;
+    top: 80px;
+    right: 35px;
+}
+
+
+

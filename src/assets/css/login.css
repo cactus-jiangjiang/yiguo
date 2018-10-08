@@ -1,0 +1,123 @@
+.sigin-top{
+    background: #e0e0e0;
+}
+.signin .wrap{
+    width: 1200px;
+    margin:0  auto;
+    position: relative;
+}
+.signin .wrap>div{
+    float: left;
+    margin: 15px 0 5px 0;
+}
+.signin .wrap div.left-logo>a{
+    display: block;
+    width: 145px;
+    height: 50px;
+    background: url("http://127.0.0.1:3000/img/imgIndex/logo.png");
+}
+.signin .wrap div.login{
+    height: 50px;
+    line-height: 50px;
+    color: #008842;
+    font-size: 28px;
+    position: absolute;
+    left: 250px;
+}
+.signin section{
+    background: #fff;
+    margin-top: 0;
+}
+.signin section div.main{
+    width: 1200px;
+    margin:0 auto;
+    padding-top: 50px;
+
+}
+.signin section div.main div.left-side>img{
+    float: left;
+    width: 666px;
+    height: 418px;
+}
+/* 登录 */
+.signin section div.main div.right-side{
+    float: right;
+    margin-right: 100px;
+    background: #fff;
+    padding: 30px 20px 20px;
+    border: 1px solid #e3e6e0;
+}
+.signin section div.main div.right-side div>p{
+    margin-bottom: 20px;
+}
+.signin section div.main div.right-side div>p:first-child>span.strong{
+    font-size: 18px;
+    color:#262626;
+    font-family: "Microsoft Yahei";
+}
+.signin section div.main div.right-side div>p:first-child>span.small{
+    font-size: 12px;
+    color:#878787;
+    font-family:Arial, "SimSun";
+    margin-left: 100px;
+}
+.signin section div.main div.right-side div>p:first-child>span.small>a{
+    color:#008842;
+    text-decoration: underline;
+}
+
+.signin section div.main div.right-side div p>span.sprit-img{
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    background: url("http://127.0.0.1:3000/img/login/bg_input.png") no-repeat 1px -119px;
+}
+.signin section div.main div.right-side div p>span.sprit-img+input{
+    width: 304px;
+    height: 40px;
+    padding-left: 50px;
+    border: 1px solid #c1c1c1;
+}
+.signin section div.main div.right-side div p:nth-child(3)>span.sprit-img{
+    background-position:1px -179px;
+}
+.signin section div.main div.right-side div p:nth-child(4)>span.sprit-img{
+    background-position: 1px -179px;
+}
+.signin section div.main div.right-side div p:nth-child(4)>input.input-key{
+    width: 150px;
+}
+.signin section div.main div.right-side div p:nth-child(4) .img{
+    width: 60px;
+    height: 40px;
+    overflow: hidden;
+}
+.signin section div.main div.right-side div p:nth-child(4)>a{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 5px;
+}
+.signin section div.main div.right-side div p:nth-child(6)>a{
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    font: 18px "Microsoft YaHei";
+    width: 306px;
+    background: #008842;
+    padding-top: 10px;
+}
+.signin section div.main div.right-side div p:last-child i{
+    display: inline-block;
+    width: 88px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 20px;
+    background: url("http://127.0.0.1:3000/img/login/bg_login.png") no-repeat -60px -200px;
+}
+.signin section div.main div.right-side div p:last-child a.sina i{
+    background-position: -160px -200px
+}
+.signin section div.main div.right-side div p:last-child{
+    margin-bottom: 0;
+}

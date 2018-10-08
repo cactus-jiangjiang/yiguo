@@ -1,0 +1,220 @@
+.page_ad a {
+    display: block;
+    float: left;
+}
+.page_ad a:hover {
+    box-shadow: 0 0 7px #777;
+}
+.page_ad .big {
+    width: 1200px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.page_ad .medium {
+    width: 405px;
+    height: 180px;
+}
+.page_ad .mr{
+    margin-right: 10px;
+}
+.page_ad .small {
+    width: 180px;
+    height: 180px;
+}
+.select {
+    width: 1200px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.select .all {
+    position: relative;
+    background: #eaeaea;
+    border: 1px solid #c7c7c7;
+    border-right-color: #e5e5e5;
+}
+.select .tit {
+    width: 95px;
+    padding: 5px 0 5px 20px;
+    color: #909090;
+    background: #EAEAEA;
+}
+.select ul {
+    position: relative;
+    width: 1100px;
+    padding: 5px 0;
+    zoom: 1;
+    background: #f1f1f1;
+}
+.select li {
+    float: left;
+    display: inline;
+}
+.select .all li:after {
+    content: "|";
+}
+.select a {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0 15px;
+    text-decoration: none;
+    color: #777;
+}
+.select .all li:last-child:after {
+    content: "";
+}
+.filter {
+    padding: 5px 10px;
+    background: #eaeaea;
+    margin-top: 20px;
+}
+.filter_sort a {
+    display: block;
+    float: left;
+    height: 30px;
+    line-height: 20px;
+    margin-left: -1px;
+    padding: 5px 10px;
+    border: 1px solid #c7c7c7;
+    background: #fff;
+}
+.filter_sort a i{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 2px;
+    width: 10px;
+    height: 15px;
+    margin-left: 3px;
+    background: url("http://127.0.0.1:3000/img/productlist/filter_icon.png") no-repeat 0 0;
+}
+.filter_sort a i.sort_down {
+    background-position: -20px 0;
+}
+.filter_sort a.up>i.sort_down{
+    background-position: -40px 0;
+}
+.filter_sort a.down>i.sort_down{
+    background-position: -30px 0;
+}
+.filter_sort a:hover>i.dowm,.filter_sort a.on>i.dowm{
+    background-position: -10px 0;
+}
+.filter_sort .on{
+    background: #eee;
+}
+
+/*商品列表*/
+.goods_list{
+    margin-left: -13px;
+}
+.goods_list ul li{
+    float: left;
+    width: 290px;
+    margin: 15px 0 0 13px;
+    background: #fff;
+    position: relative;
+}
+.product_item .p_img {
+    position: relative;
+    width: 290px;
+    height: 290px;
+}
+.product_item .p_info {
+    padding: 10px;
+    height: 68px;
+}
+.product_item .p_name {
+    height: 16px;
+    margin-bottom: 10px;
+    line-height: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product_item .p_price {
+    height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product_item .p_price .price {
+    font-size: 18px;
+    color: #e7380d;
+    vertical-align: middle;
+}
+.product_item .tag {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 46px;
+    height: 46px;
+}
+.product_item .p-buy {
+    display: none;
+    position: absolute;
+    left: 5px;
+    bottom: 60px;
+    width: 270px;
+    padding: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+}
+.goods_list ul li.product_item:hover .p-buy{
+    display: block;
+}
+.product_item .p-buy span {
+    display: block;
+    width: 270px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+.product_item .btn-buy {
+    display: block;
+    width: 180px;
+    height: 25px;
+    margin: 0 auto;
+    line-height: 25px;
+    color: #fff;
+    background: #008742;
+    border-radius: 4px;
+}
+
+/*分页*/
+.page_btn{
+    margin-top: 10px;
+    background: #eaeaea;
+}
+.page_btn .paging {
+    margin: 10px;
+}
+.page_btn .paging .paging-num, .paging .paging-total, .paging .paging-form{
+    float: left;
+    margin-left: 10px;
+}
+.page_btn .paging .paging-num a {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 0 3px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 0 7px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.page_btn .paging .paging-num  .width-btn{
+    width: 70px;
+}
+.page_btn .paging .paging-num  .width-btn.disabled{
+    background: #e0e0e0;
+    color: #bbb;
+}
+.page_btn .paging .paging-num  .width-btn.disabled:hover{
+    border-color: #ccc;
+}
+.page_btn .paging .paging-num a:hover, .paging .paging-num .this {
+    color: #008842;
+    border: 1px solid #008842;
+}

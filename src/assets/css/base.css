@@ -1,0 +1,79 @@
+/*样式重置*/
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F7F8F8;
+    color:#444 ;
+    font-size: 12px;
+    font-family: Arial, "微软雅黑", sans-serif;;
+}
+a{
+    color: #444;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    color: #008842;
+}
+ul,ol{
+    list-style: none;
+}
+input{
+    border: 1px solid #444444;
+    outline: none;
+    color: #444;
+    font-size: 12px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container:before{
+    content: "";
+    display: table;
+}
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.flex{
+    display: flex;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.dNone{
+    display: none !important;
+}
+header,section,footer{
+    width: 1920px;
+}
+.clear-float:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.colorGreen{
+    color: #008842;
+}
+.index,.signin,.p-details,.shopping,.not-find,.register,.p-list{
+    width: 1920px;
+}
+
+
+
+

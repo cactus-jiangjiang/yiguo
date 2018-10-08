@@ -1,0 +1,43 @@
+
+/*页脚*/
+.footer .footer-service{
+    position: absolute;
+    top: 0;
+    width: 1920px;
+    height: 80px;
+    padding: 20px;
+    background: #e0e0e0;
+}
+.footer .footer-service>div.container{
+    width: 1200px;
+}
+.footer .footer-service>div>ul{
+    justify-content: space-around;
+}
+.footer .footer-service>div>ul>li{
+    text-align: left;
+    width: 245px;
+    height: 43px;
+    padding-left: 55px;
+    margin-left: 35px;
+    background: url("http://127.0.0.1:3000/img/imgIndex/footer_service_icon.png") no-repeat 0 0;
+}
+.footer .footer-service>div>ul>li>b{
+    display: block;
+    font: normal 20px "Microsoft YaHei";
+    color: #007f4d;
+    padding-left: 15px;
+}
+.footer .footer-service>div>ul>li>span{
+    display: block;
+    padding-left: 15px;
+}
+.footer .footer-service>div>ul>li:nth-child(2){
+    background: url("http://127.0.0.1:3000/img/imgIndex/footer_service_icon.png") no-repeat 0 -42px;
+}
+.footer .footer-service>div>ul>li:nth-child(3){
+    background: url("http://127.0.0.1:3000/img/imgIndex/footer_service_icon.png") no-repeat 0 -84px;
+}
+.footer .footer-service>div>ul>li:last-child{
+    background: url("http://127.0.0.1:3000/img/imgIndex/footer_service_icon.png") no-repeat 0 -126px;
+}

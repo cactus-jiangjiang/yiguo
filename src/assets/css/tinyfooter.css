@@ -1,0 +1,75 @@
+
+/*页脚*/
+.footer{
+    position: relative;
+    width: 1920px;
+    margin-top: 30px;
+    padding-top: 100px;
+    border-top: 1px solid  #e0e0e0;
+}
+.footer .container>div.flex{
+    justify-content: space-around;
+    margin-bottom: 45px;
+}
+.footer .container>div>dl{
+    margin-left: 35px;
+}
+.footer .container>div>dl>dt{
+    width: 150px;
+    height: 23px;
+    line-height: 23px;
+    font-size: 14px;
+    text-indent: 5px;
+    padding-left: 35px;
+    background: url("http://127.0.0.1:3000/img/imgIndex/footer_icon.png") no-repeat;
+}
+.footer .container>div>dl.col2>dt{
+    background-position: 0 -23px;
+}
+.footer .container>div>dl.col3>dt{
+    background-position: 0 -46px;
+}
+.footer .container>div>dl.col4>dt{
+    background-position: 0 -69px;
+}
+.footer .container>div>dl.col5>dt{
+    background-position: 0 -92px;
+}
+.footer .container>div>dl>dd{
+    width: 165px;
+    height: 110px;
+    border-left: 1px dashed #A8A8A8;
+    padding-left: 5px;
+    margin: 15px 0 0 13px;
+}
+.footer .container>div>dl>dd>p{
+    height: 22px;
+    line-height: 22px;
+    text-align: left;
+    padding-left: 30px;
+}
+.footer .container>div>dl>dd>p>a:hover{
+    text-decoration: underline;
+}
+.footer .container>div.service{
+    margin: 15px 0 20px 0;
+    text-align: center;
+    color: #008842;
+    font-size: 14px;
+}
+.footer .container>div.service span{
+    margin-right: 20px;
+}
+.footer .container>div.copyright>p{
+    text-align: center;
+    margin: 0 auto;
+}
+.footer .container>div.copyright>p>a:hover{
+    color: #444;
+}
+.footer .container>div.copyright>p:nth-child(3)>a:nth-child(2)>img{
+    width: 39px;
+}
+.footer .container>div.copyright>p:nth-child(3)>a{
+    margin: 10px;
+}

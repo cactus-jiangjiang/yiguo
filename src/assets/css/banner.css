@@ -1,0 +1,23 @@
+ul{
+    list-style: none;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 1920px;
+    height: 500px;
+}
+.bannerImg{
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+.bannerImg span{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.bannerImg span.active{
+    transition:all 1s;
+}

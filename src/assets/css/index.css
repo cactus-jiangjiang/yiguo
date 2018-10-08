@@ -1,0 +1,334 @@
+
+.index{
+    width: 1920px;
+}
+
+/*广告*/
+.advertise>ul.advertise-list{
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.advertise>ul.advertise-list>li>a{
+    display: block;
+    width: 290px;
+    height: 290px;
+}
+.advertise>ul.advertise-list>li>a:hover{
+    color: #575757;
+}
+.advertise>ul.advertise-list>li>a>p{
+    width: 270px;
+    height: 60px;
+    margin: 10px;
+    background: #fff;
+    text-align: center;
+    top: 210px;
+    left: 0;
+}
+.advertise>ul.advertise-list>li>a>p>b{
+    display: block;
+    font: bold 22px "Microsoft YaHei";
+    color: #575757;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+}
+.advertise>ul.advertise-list>li:hover{
+    box-shadow: 0 0 2px 2px #c0c0c0;
+}
+/*楼层*/
+#floor{
+    margin-top: 18px;
+}
+#floor>div.floor>div.floor-title{
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+#floor>div.floor>div.floor-title>h2{
+    width: 130px;
+    height: 36px;
+    text-align: left;
+}
+#floor>div.floor>div.floor-title>h2>a{
+    display: inline-block;
+    color: #fc5f3c;
+}
+#floor>div.floor>div.floor-title>h2>a:hover{
+    color: #fc5f3c;
+}
+#floor>div.floor>div.floor-title>h2>a>i{
+    display: inline-block;
+    font-style: normal;
+    width: 46px;
+    height: 36px;
+    font-size: 20px;
+    color: #fff;
+    vertical-align: bottom;
+    margin-right: 10px;
+    padding: 12px 0 0 5px;
+    background: url("http://127.0.0.1:3000/img/imgIndex/floor_tit_icon.png") no-repeat 0 1px;
+    top: 5px;
+    left: 2px;
+}
+#floor>div.floor>div.floor-title>span{
+    padding-top: 15px;
+}
+#floor>div.floor>div.floor-title>span>a:hover{
+    text-decoration: underline;
+}
+#floor>div.floor>div.floor-title>span>span:before{
+    padding: 0 8px 0 8px;
+    content: "|";
+}
+/*楼层主体*/
+#floor>div.floor>div.floor-body>div.floor-side{
+    width: 276px;
+    height: 463px;
+}
+#floor>div.floor>div.floor-body{
+    background: #fff;
+    margin-bottom: 25px;
+}
+#floor>div.floor>div.floor-body>div.floor-main{
+    width: 925px;
+    border: 1px solid #d5d5d5;
+}
+#floor>div.floor>div.floor-body>div.floor-main>ul>li{
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    width: 230px;
+    height: 230px;
+}
+#floor>div.floor>div.floor-body>div.floor-main>ul>li.width{
+    width: 461px;
+}
+#floor>div.floor>div.floor-body>div.floor-main>ul>li:first-child,#floor>div.floor>div.floor-body>div.floor-main>ul>li:nth-child(2){
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+}
+#floor>div.floor>div.floor-body>div.floor-main>ul>li:nth-child(3){
+    border-bottom: 1px solid #d5d5d5;
+}
+#floor>div.floor>div.floor-body>div.floor-main>ul>li:nth-child(4),#floor>div.floor>div.floor-body>div.floor-main>ul>li:nth-child(5){
+    border-right: 1px solid #d5d5d5;
+}
+/*给图片加效果*/
+#floor>div.floor>div.floor-body>div.floor-main>ul>li>a,#floor>div.style-2>div.floor-body>div.floor-main a,#floor>div.style-3>div.floor-body>div.floor-main a{
+    display: block;
+    transition: all .2s linear;
+}
+#floor>div.floor>div.floor-body>div.floor-main>ul>li>a:hover,#floor>div.style-2>div.floor-body>div.floor-main a:hover,#floor>div.style-3>div.floor-body>div.floor-main a:hover{
+    transform: translateX(5px);
+}
+#floor>div.fl2>div.floor-title>h2>a{
+    color: #007f4d;
+}
+#floor>div.fl2>div.floor-title>h2>a:hover{
+    color: #007f4d;
+}
+#floor>div.fl2>div.floor-title>h2>a>i{
+    background: url("http://127.0.0.1:3000/img/imgIndex/floor_tit_icon.png") no-repeat -46px 1px;
+}
+#floor>div.fl3>div.floor-title>h2>a{
+    color: #45c6ce;
+}
+#floor>div.fl3>div.floor-title>h2>a:hover{
+    color: #45c6ce;
+}
+#floor>div.fl3>div.floor-title>h2>a>i{
+    background: url("http://127.0.0.1:3000/img/imgIndex/floor_tit_icon.png") no-repeat -184px 1px;
+}
+/*四楼*/
+#floor>div.style-2>div.floor-body>div.floor-main>div{
+    width: 677px;
+}
+#floor>div.style-2>div.floor-body>div.floor-main>div>div.left-side{
+    overflow: hidden;
+    width: 234px;
+    height: 390px;
+    border-bottom: 1px solid #d5d5d5;
+}
+#floor>div.style-2>div.floor-body>div.floor-main>div>div.small-img{
+    width: 442px;
+    height: 384px;
+}
+#floor>div.style-2>div.floor-body>div.floor-main>div>div.small-img>ul>li{
+    overflow: hidden;
+    float: left;
+    border-bottom: 1px solid #d5d5d5;
+    border-left: 1px solid #d5d5d5;
+}
+#floor>div.style-2>div.floor-body>div.floor-main>div{
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+}
+#floor>div.style-2>div.floor-body>div.floor-main>div>div.bottom-logo{
+    width: 677px;
+    height: 77px;
+    padding: 11px;
+}
+#floor>div.style-2>div.floor-body>div.floor-main>div>div.bottom-logo>ul>li{
+    overflow: hidden;
+    margin: 0 15px 0 15px;
+}
+#floor>div.style-2>div.floor-body>div.floor-main>div.right-side{
+    overflow: hidden;
+}
+#floor>div.fl4>div.floor-title>h2>a{
+    color: #f0c000;
+}
+#floor>div.fl4>div.floor-title>h2>a:hover{
+    color: #f0c000;
+}
+#floor>div.fl4>div.floor-title>h2>a>i{
+    background: url("http://127.0.0.1:3000/img/imgIndex/floor_tit_icon.png") no-repeat -92px 1px;
+}
+#floor>div.fl5>div.floor-title>h2>a{
+    color: #764e00;
+}
+#floor>div.fl5>div.floor-title>h2>a:hover{
+    color: #764e00;
+}
+#floor>div.fl5>div.floor-title>h2>a>i{
+    background: url("http://127.0.0.1:3000/img/imgIndex/floor_tit_icon.png") no-repeat -230px 1px;
+}
+#floor>div.fl6>div.floor-title>h2>a{
+    color: #3ca3dc;
+}
+#floor>div.fl6>div.floor-title>h2>a:hover{
+    color: #3ca3dc;
+}
+#floor>div.fl6>div.floor-title>h2>a>i{
+    background: url("http://127.0.0.1:3000/img/imgIndex/floor_tit_icon.png") no-repeat -322px 1px;
+}
+/*样式3*/
+#floor>div.style-3>div.floor-body>div.floor-main>div>div.left-side{
+    overflow: hidden;
+    width: 235px;
+    height: 384px;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+}
+#floor>div.style-3>div.floor-body>div.floor-main>div{
+    width: 677px;
+}
+#floor>div.style-3>div.floor-body>div.floor-main>div>div.small-img>ul>li{
+    overflow: hidden;
+    width: 442px;
+    height: 192px;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+}
+#floor>div.style-3>div.floor-body>div.floor-main>div.right-side{
+    overflow: hidden;
+    width: 246px;
+    height: 461px;
+}
+#floor>div.style-3>div.floor-body>div.floor-main>div>div.bottom-logo{
+    overflow: hidden;
+    width: 677px;
+    height: 77px;
+    border-right: 1px solid #d5d5d5;
+    padding: 11px;
+}
+#floor>div.style-3>div.floor-body>div.floor-main>div>div.bottom-logo>ul>li{
+    overflow: hidden;
+    margin: 0 15px 0 15px;
+}
+#floor>div.fl7>div.floor-title>h2>a{
+    color: #b84f00;
+}
+#floor>div.fl7>div.floor-title>h2>a:hover{
+    color: #b84f00;
+}
+#floor>div.fl7>div.floor-title>h2>a>i{
+    background: url("http://127.0.0.1:3000/img/imgIndex/floor_tit_icon.png") no-repeat -368px 1px;
+}
+
+/*电梯*/
+
+.floor-guide {
+    overflow: visible;
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    width: 35px;
+    height: 359px;
+    margin-left: -655px;
+    z-index: 100;
+    text-align: center;
+}
+.floor-guide a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    text-decoration: none;
+    cursor: pointer;
+}
+.floor-guide b {
+    display: block;
+    width: 40px;
+    height: 40px;
+    visibility: visible;
+    background: url("http://127.0.0.1:3000/img/imgIndex/floor_guide.png") no-repeat 0 0;
+}
+.floor-guide .icon_01_channelhome {
+    background-position: 0 0;
+}
+.floor-guide .icon_02_channelhome {
+    background-position: -40px 0;
+}
+.floor-guide .icon_03_channelhome {
+    background-position: -160px 0;
+}
+.floor-guide .icon_04_channelhome {
+    background-position: -80px 0;
+}
+.floor-guide .icon_05_channelhome {
+    background-position: -200px 0;
+}
+.floor-guide .icon_06_channelhome {
+    background-position: -280px 0;
+}
+.floor-guide .icon_07_channelhome {
+    background-position: -320px 0;
+}
+.floor-guide .icon_08_channelhome {
+    background-position: -360px 0;
+}
+.floor-guide em {
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    padding: 6px 8px;
+    line-height: 14px;
+    font-style: normal;
+    color: #fff;
+    transition: background-color .3s ease-out;
+}
+.floor-guide a:hover em, .floor-guide .current em {
+    visibility: visible;
+    color: #fff;
+    background-color: #008842;
+}
+.floor-guide i {
+    display: block;
+    width: 10px;
+    margin: auto;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border-top: 1px solid #d7d7d7;
+}
